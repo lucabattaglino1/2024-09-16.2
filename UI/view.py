@@ -87,6 +87,7 @@ class View(ft.UserControl):
                       alignment=ft.MainAxisAlignment.SPACE_EVENLY,
                       spacing=50)
         self._page.controls.append(row3)
+        self._controller.fillDDShape()
         self._page.update()
 
         self._page.update()
